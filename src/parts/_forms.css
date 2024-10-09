@@ -36,12 +36,17 @@ select {
 }
 
 button,
-input[type='submit'],
-input[type='reset'],
 input[type='button'] {
   background-color: var(--button-base);
   padding-right: 30px;
   padding-left: 30px;
+}
+
+input[type='submit'],
+input[type='reset'] {
+  background-color: var(--button-base);
+  width: 100px;
+  padding: 10px;
 }
 
 button:hover,
